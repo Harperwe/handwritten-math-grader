@@ -129,3 +129,9 @@ result.zip
 test_temp
 Results_pred_symlg
 *.tfevents.*
+
+
+# 本地 IDE 配置与运行产物
+.idea/
+repro_outputs/
+comer.egg-info/
