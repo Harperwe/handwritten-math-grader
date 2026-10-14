@@ -1,0 +1,266 @@
+{
+  "selection": "First 20 numeric equations in data/2016/caption.txt that are in the arithmetic parser's scope; selected before prediction.",
+  "limitations": "Convenience subset, not random or representative, not full CROHME evaluation, not user photographs. Source captions are the OCR references; mathematical truth is reviewed separately.",
+  "samples": [
+    {
+      "image": "example/arithmetic_samples/UN_128_em_1003.bmp",
+      "expected_latex": "6 + 6 + 1 6 = 2 8",
+      "expected_status": "correct",
+      "expected_left_value": "28",
+      "expected_right_value": "28",
+      "source_member": "data/2016/img/UN_128_em_1003.bmp",
+      "image_sha256": "c1c26ce0456a83573da94422cb9f6872f6b4dd5b7c7ee948feaa1b353ac969c0",
+      "size": [
+        252,
+        72
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_461_em_866.bmp",
+      "expected_latex": "4 = 1 + 1 + 1 + 1",
+      "expected_status": "correct",
+      "expected_left_value": "4",
+      "expected_right_value": "4",
+      "source_member": "data/2016/img/UN_461_em_866.bmp",
+      "image_sha256": "5da30acf4d793ea4c5763a80078bf8b42291229bd4cd919e174a129d0eb0f229",
+      "size": [
+        160,
+        63
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_110_em_227.bmp",
+      "expected_latex": "8 + 7 + 7 + 4 = 2 6",
+      "expected_status": "correct",
+      "expected_left_value": "26",
+      "expected_right_value": "26",
+      "source_member": "data/2016/img/UN_110_em_227.bmp",
+      "image_sha256": "a8a56f02491172baa197d64527797ec0f2e5f215f9111519ea03acce11546768",
+      "size": [
+        517,
+        98
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_117_em_357.bmp",
+      "expected_latex": "1 + 4 + 6 + 4 + 1 = 1 6",
+      "expected_status": "correct",
+      "expected_left_value": "16",
+      "expected_right_value": "16",
+      "source_member": "data/2016/img/UN_117_em_357.bmp",
+      "image_sha256": "6ba84c48af2a252f145dde3359a4c72966ba2b258b31a0a7d48eb08ec7962a27",
+      "size": [
+        529,
+        89
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_453_em_666.bmp",
+      "expected_latex": "5 + 2 + 4 + 4 + 3 = 1 8",
+      "expected_status": "correct",
+      "expected_left_value": "18",
+      "expected_right_value": "18",
+      "source_member": "data/2016/img/UN_453_em_666.bmp",
+      "image_sha256": "c93d82483730e8f7c73942272b536ddec3f599034d19c7fba712306b05a2bce8",
+      "size": [
+        353,
+        73
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_111_em_259.bmp",
+      "expected_latex": "4 + 7 + 7 + 1 + 1 = 2 0",
+      "expected_status": "correct",
+      "expected_left_value": "20",
+      "expected_right_value": "20",
+      "source_member": "data/2016/img/UN_111_em_259.bmp",
+      "image_sha256": "5c49d77c6d0d4300149829661165c6fa32a003fa6a70fb1d98113ba5aede7901",
+      "size": [
+        444,
+        74
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_110_em_229.bmp",
+      "expected_latex": "8 = 2 + 2 + 1 + 1 + 1 + 1",
+      "expected_status": "correct",
+      "expected_left_value": "8",
+      "expected_right_value": "8",
+      "source_member": "data/2016/img/UN_110_em_229.bmp",
+      "image_sha256": "a29e80aba68ab39716b44a13cfc4e7d73f9c15263046a53d116a9713e603f2bf",
+      "size": [
+        539,
+        84
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_114_em_304.bmp",
+      "expected_latex": "+ 1 - 1 + 1 - 1 + 1 = + 1",
+      "expected_status": "correct",
+      "expected_left_value": "1",
+      "expected_right_value": "1",
+      "source_member": "data/2016/img/UN_114_em_304.bmp",
+      "image_sha256": "de89919d349f6e21ecbae25ae3ad15a524f7824fc074c33883fbb047384c71f7",
+      "size": [
+        922,
+        84
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_115_em_316.bmp",
+      "expected_latex": "3 \\times 1 + 3 \\times 1 = 6",
+      "expected_status": "correct",
+      "expected_left_value": "6",
+      "expected_right_value": "6",
+      "source_member": "data/2016/img/UN_115_em_316.bmp",
+      "image_sha256": "d003e9dc6bf5ec3b74401c9240b51e90bb7e1fc3748db520173f9f6f3ac8a28e",
+      "size": [
+        443,
+        67
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_457_em_766.bmp",
+      "expected_latex": "1 + 1 6 + 1 2 0 + 1 0 = 1 4 7",
+      "expected_status": "correct",
+      "expected_left_value": "147",
+      "expected_right_value": "147",
+      "source_member": "data/2016/img/UN_457_em_766.bmp",
+      "image_sha256": "f2ec70155acde0eb577997c6d060f6e099e1208a7d9387cad417e656ec37c6d7",
+      "size": [
+        402,
+        75
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_463_em_922.bmp",
+      "expected_latex": "\\frac { 1 } { 2 } + \\frac { 1 } { 2 } = 1",
+      "expected_status": "correct",
+      "expected_left_value": "1",
+      "expected_right_value": "1",
+      "source_member": "data/2016/img/UN_463_em_922.bmp",
+      "image_sha256": "b71ebbc85987186093f2077f395346f82b8c5b098102268158ca18b2460fa5cd",
+      "size": [
+        186,
+        101
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_101_em_10.bmp",
+      "expected_latex": "\\frac { 1 } { 4 } = - \\frac { 3 } { 4 } + 1",
+      "expected_status": "correct",
+      "expected_left_value": "1/4",
+      "expected_right_value": "1/4",
+      "source_member": "data/2016/img/UN_101_em_10.bmp",
+      "image_sha256": "6f43a0cecbea4c9abe5d24e384bf9ab99ca9504f65fbb839cce18594ea6484a6",
+      "size": [
+        272,
+        120
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_458_em_787.bmp",
+      "expected_latex": "( 1 ) + ( 6 + 6 ) + ( 1 + 3 \\times 6 ) = 3 2",
+      "expected_status": "correct",
+      "expected_left_value": "32",
+      "expected_right_value": "32",
+      "source_member": "data/2016/img/UN_458_em_787.bmp",
+      "image_sha256": "855505d18b50adda8b4635e79f230eeebadde0d32d722dbc324da386a1d8635d",
+      "size": [
+        416,
+        83
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_123_em_500.bmp",
+      "expected_latex": "- \\frac { 1 } { 3 } + 1 = - \\frac { 2 } { 3 }",
+      "expected_status": "incorrect",
+      "expected_left_value": "2/3",
+      "expected_right_value": "-2/3",
+      "source_member": "data/2016/img/UN_123_em_500.bmp",
+      "image_sha256": "47112ec090fc17044dadf53c75516428606403e693a6365248e382e326634746",
+      "size": [
+        352,
+        120
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_466_em_985.bmp",
+      "expected_latex": "1 6 \\times 2 \\times 2 - ( 1 6 + 1 6 \\times 2 ) = 1 6",
+      "expected_status": "correct",
+      "expected_left_value": "16",
+      "expected_right_value": "16",
+      "source_member": "data/2016/img/UN_466_em_985.bmp",
+      "image_sha256": "3f98b94018d74fa515bd161be10da947a2ec0543ebea76ad0c05b9ef174a2164",
+      "size": [
+        547,
+        91
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_464_em_945.bmp",
+      "expected_latex": "- \\frac { 1 } { 3 } + \\frac { 1 } { 2 } = \\frac { 1 } { 6 }",
+      "expected_status": "correct",
+      "expected_left_value": "1/6",
+      "expected_right_value": "1/6",
+      "source_member": "data/2016/img/UN_464_em_945.bmp",
+      "image_sha256": "96b3916504e91a2bc47682672bb5357ad59cd982cbd73efcefaaf79ad6a4c9d1",
+      "size": [
+        282,
+        119
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_460_em_837.bmp",
+      "expected_latex": "\\frac { 2 4 3 } { 1 5 4 } = \\frac { 3 } { 2 } + \\frac { 6 } { 7 7 }",
+      "expected_status": "correct",
+      "expected_left_value": "243/154",
+      "expected_right_value": "243/154",
+      "source_member": "data/2016/img/UN_460_em_837.bmp",
+      "image_sha256": "d5c82df8184ea95e479164efc50682e3d7d732f9d6af81e58db3fde640e50d1a",
+      "size": [
+        293,
+        112
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_123_em_495.bmp",
+      "expected_latex": "- \\frac { 4 } { 1 6 } + \\frac { 4 } { 2 4 } = - \\frac { 1 } { 1 2 }",
+      "expected_status": "correct",
+      "expected_left_value": "-1/12",
+      "expected_right_value": "-1/12",
+      "source_member": "data/2016/img/UN_123_em_495.bmp",
+      "image_sha256": "d53541c541d6a3f7e2e8dfb1c69ac2af12760acbb71b23d9738ba4692d86f034",
+      "size": [
+        376,
+        138
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_452_em_645.bmp",
+      "expected_latex": "- \\frac { 4 } { 2 4 } - \\frac { 4 } { 1 6 } = - \\frac { 5 } { 1 2 }",
+      "expected_status": "correct",
+      "expected_left_value": "-5/12",
+      "expected_right_value": "-5/12",
+      "source_member": "data/2016/img/UN_452_em_645.bmp",
+      "image_sha256": "754319537c5413754c0404a4588c438602fad2adb67fbe00c542ff36d20855d6",
+      "size": [
+        315,
+        112
+      ]
+    },
+    {
+      "image": "example/arithmetic_samples/UN_459_em_800.bmp",
+      "expected_latex": "- \\frac { 1 } { 2 4 } \\times \\frac { 8 } { 3 } \\times 3 \\times 2 \\times 6 = - 4",
+      "expected_status": "correct",
+      "expected_left_value": "-4",
+      "expected_right_value": "-4",
+      "source_member": "data/2016/img/UN_459_em_800.bmp",
+      "image_sha256": "1bf6939ccd45525dce46ffb2967942908aaed663ee2e7f40cc4df895741419de",
+      "size": [
+        587,
+        112
+      ]
+    }
+  ]
+}
